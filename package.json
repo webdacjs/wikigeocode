@@ -1,0 +1,14 @@
+{
+  "name": "wikigeocode",
+  "version": "1.0.0",
+  "description": "Simple utility to geocode a location using the wikimedia APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Convers",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
