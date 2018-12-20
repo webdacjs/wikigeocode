@@ -5,12 +5,12 @@ const wikiGeoUrl = `${wikiprefix}&prop=coordinates&utf8=&titles=`
 const wikiExtractUrl = `${wikiprefix}&prop=extracts&exintro&explaintext&redirects=1&titles=`
 
 const fetchGeo = location =>
-    fetch(`${wikiGeoUrl}${location}`)
+    fetch(`${wikiGeoUrl}${encodeURIComponent(location)}`)
         .then(res => res.json())
         .then(res => res.query.pages[Object.keys(res.query.pages)[0]])
 
 const fetchExtract = query =>
-    fetch(`${wikiExtractUrl}${query}`)
+    fetch(`${wikiExtractUrl}${encodeURIComponent(query)}`)
         .then(res => res.json())
         .then(res => res.query.pages[Object.keys(res.query.pages)[0]])
 
