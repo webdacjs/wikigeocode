@@ -1,7 +1,7 @@
 {
   "name": "wikigeocode",
   "version": "1.4.0",
-  "description": "Simple utility to geocode a location using the wikimedia APIs.",
+  "description": "Simple utility to geocode an administrative location using the wikimedia APIs.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
