@@ -1,6 +1,6 @@
 # wikigeocode
 
-This tiny module performs the geocode of a location using the wikimedia APIs, returning the wikipedia page title and the coordinates if available. For example:
+This tiny module performs the geocode of a location using the wikimedia APIs, returning the wikipedia page title and the coordinates if available, caching the results for an hour. For example:
 
 ```js
 > const {fetchSearchGeo} = require('wikigeocode')
