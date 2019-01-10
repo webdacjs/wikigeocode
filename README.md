@@ -65,5 +65,5 @@ The previous two functions require the exact wikipedia page title. If you don't 
 
 ### License
 
-Copyright © 2018, [Juan Convers](https://github.com/webdacjs).
+Copyright © 2019, [Juan Convers](https://juanconvers.com/).
 Released under the [MIT License](LICENSE).

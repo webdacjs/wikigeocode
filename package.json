@@ -6,6 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/webdacjs/wikigeocode.git"
+  },
+  "keywords": [
+    "geo",
+    "geocode",
+    "wikipedia",
+    "geolocation"
+  ],
   "author": "Juan Convers",
   "license": "MIT",
   "dependencies": {
