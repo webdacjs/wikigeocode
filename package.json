@@ -1,14 +1,14 @@
 {
   "name": "wikigeocode",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Simple utility to geocode an administrative location using the wikimedia APIs.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/webdacjs/wikigeocode.git"
+    "type": "git",
+    "url": "git+https://github.com/webdacjs/wikigeocode.git"
   },
   "keywords": [
     "geo",
