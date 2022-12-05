@@ -1,6 +1,6 @@
 {
   "name": "wikigeocode",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "description": "Simple utility to geocode an administrative location using the wikimedia APIs.",
   "main": "index.js",
   "scripts": {
